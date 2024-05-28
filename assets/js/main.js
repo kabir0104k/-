@@ -17,13 +17,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             },
             color: {
-                value: "#000000"
+                value: "#06ff00" // Green color for particles
             },
             shape: {
                 type: "circle",
                 stroke: {
                     width: 0,
-                    color: "#000000"
+                    color: "#06ff00" // Green color for stroke
                 },
                 polygon: {
                     nb_sides: 5
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
             line_linked: {
                 enable: true,
                 distance: 150,
-                color: "#000000",
+                color: "#06ff00", // Green color for line links
                 opacity: 0.4,
                 width: 1
             },
